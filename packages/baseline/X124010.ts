@@ -1,4 +1,5 @@
-﻿// Stores the currently-being-typechecked object for error messages.
+// Stores the currently-being-typechecked object for error messages.
+// Do Not Use - FIXME / TODO
 let obj: any = null;
 export class X124010Proxy {
   public readonly $schema: string;
