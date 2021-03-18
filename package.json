@@ -1,7 +1,14 @@
 {
-  "name": "libinterchange",
+  "name": "libInterchange",
+  "version": "0.13.0",
+  "files": [ "packages/**/**/**" ],
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/as2network/libinterchange.git"
+  "directory": "packages/*"
+},
   "description": "A Well Typed Library for Data Interchange",
-  "private": true,
+  "private": false,
   "workspaces": [
     "packages/*",
     "examples/*"
